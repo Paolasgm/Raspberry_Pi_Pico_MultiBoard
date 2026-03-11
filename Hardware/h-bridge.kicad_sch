@@ -2639,6 +2639,16 @@
 				(justify right)
 			)
 		)
+		(property "Netclass" "Default"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -2660,6 +2670,17 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+		(property "Netclass" "Default"
+			(at 118.8085 47.1805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
 			)
 		)
 	)
