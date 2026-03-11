@@ -4020,32 +4020,30 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Si4735-D60-GU_1"
+		(symbol "RF_AM_FM:Si4735-D60-GU"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.794 16.383 0)
+			(property "Reference" "U10"
+				(at 0 -20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "Si4732"
-				(at -2.794 14.478 0)
+				(at 0 -18.034 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm"
+			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 				(at 6.35 -17.78 0)
 				(do_not_autoplace)
 				(effects
@@ -4056,7 +4054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4730-31-34-35-D60.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202032030_SKYWORKS-SILICON-LABS-SI4732-A10-GSR_C2155558.pdf"
 				(at 1.27 -25.4 0)
 				(do_not_autoplace)
 				(effects
@@ -4068,6 +4066,24 @@
 			)
 			(property "Description" "AM/FM/SW/LW Broadcast Radio Receiver with RDS/RBDS"
 				(at -11.684 -42.164 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2155558"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB #" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4093,7 +4109,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Si4735-D60-GU_1_0_1"
+			(symbol "Si4735-D60-GU_0_1"
 				(rectangle
 					(start -11.43 12.7)
 					(end 11.43 -16.51)
@@ -4106,7 +4122,7 @@
 					)
 				)
 			)
-			(symbol "Si4735-D60-GU_1_1_1"
+			(symbol "Si4735-D60-GU_1_1"
 				(pin bidirectional line
 					(at -15.24 7.62 0)
 					(length 3.81)
@@ -4261,7 +4277,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4279,7 +4295,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4297,7 +4313,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4315,7 +4331,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4333,7 +4349,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4351,7 +4367,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4369,7 +4385,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4387,7 +4403,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4750,7 +4766,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The pin numbers are wrong\nfor the Si4732.  The right\nside is reversed."
+	(text "Updated pin numbers by \nchanging symbol in \nschematic."
 		(exclude_from_sim no)
 		(at 119.634 133.858 0)
 		(effects
@@ -7784,6 +7800,137 @@
 		)
 	)
 	(symbol
+		(lib_id "RF_AM_FM:Si4735-D60-GU")
+		(at 91.44 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e9703b-8d55-49f0-bf51-4b0fb90f3554")
+		(property "Reference" "U14"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si4732"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 97.79 133.35 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202032030_SKYWORKS-SILICON-LABS-SI4732-A10-GSR_C2155558.pdf"
+			(at 92.71 140.97 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AM/FM/SW/LW Broadcast Radio Receiver with RDS/RBDS"
+			(at 79.756 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2155558"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB #" ""
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "a5270a49-5a87-48fb-a774-31faf9462362")
+		)
+		(pin "10"
+			(uuid "1a296f57-0cde-4c69-8b61-b075a414a7e3")
+		)
+		(pin "11"
+			(uuid "6d0de6c9-0f5b-48dc-8434-badcb1f958a9")
+		)
+		(pin "12"
+			(uuid "b2a3250a-42db-496e-b252-37712e4816cc")
+		)
+		(pin "13"
+			(uuid "bfe3f1ef-3dcf-4736-9501-e7a7a80adba9")
+		)
+		(pin "8"
+			(uuid "47371458-fb74-4b44-8ef0-1f2e6ee5b70d")
+		)
+		(pin "16"
+			(uuid "bc2d716d-de93-421f-a8dd-3431e9e70149")
+		)
+		(pin "15"
+			(uuid "b80eef92-d857-4851-b1f2-3f76e49bb42c")
+		)
+		(pin "14"
+			(uuid "eb5f7310-99e1-4ab3-9f77-b72e79cc3a12")
+		)
+		(pin "2"
+			(uuid "dbace253-68ed-455d-a2e4-d10ba76bfac8")
+		)
+		(pin "1"
+			(uuid "8831935d-c391-40c1-9513-9aadc7968d3c")
+		)
+		(pin "3"
+			(uuid "d75e7e3e-e18e-45a2-b4c9-4f576b9caaab")
+		)
+		(pin "4"
+			(uuid "746a2ec8-bb4b-49b4-86a9-fdd4a8190c9a")
+		)
+		(pin "5"
+			(uuid "7877e3e9-7c43-4c54-ba45-9afd76028900")
+		)
+		(pin "6"
+			(uuid "dfea62c5-9064-4c9a-94cf-cdcc0ce85720")
+		)
+		(pin "7"
+			(uuid "ef964a61-dfec-46bd-bbdd-1ee482546323")
+		)
+		(instances
+			(project ""
+				(path "/4d45bd57-073c-4b61-a56d-da596d50cf10/7c7cf773-d00e-4ff4-9968-8b6516778136"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 139.7 62.23 0)
 		(mirror y)
@@ -10277,137 +10424,6 @@
 			(project "Audio_in_usd_sound_rp_pico"
 				(path "/4d45bd57-073c-4b61-a56d-da596d50cf10/7c7cf773-d00e-4ff4-9968-8b6516778136"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Si4735-D60-GU_1")
-		(lib_id "RF_AM_FM:Si4735-D60-GU")
-		(at 91.44 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fae2d4d-8a71-4114-a308-98a555b28433")
-		(property "Reference" "U10"
-			(at 91.44 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Si4732"
-			(at 91.44 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 97.79 133.35 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2202032030_SKYWORKS-SILICON-LABS-SI4732-A10-GSR_C2155558.pdf"
-			(at 92.71 140.97 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "AM/FM/SW/LW Broadcast Radio Receiver with RDS/RBDS"
-			(at 79.756 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2155558"
-			(at 91.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB #" ""
-			(at 91.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "e3b89344-12e2-4bcb-afcc-726627bb3f01")
-		)
-		(pin "15"
-			(uuid "f59cbd04-2278-42dd-95f1-db0cea37e455")
-		)
-		(pin "12"
-			(uuid "3e061c84-326e-4002-b4e8-3e8516a153f6")
-		)
-		(pin "5"
-			(uuid "048729a4-bb19-4276-a39b-071d39862611")
-		)
-		(pin "6"
-			(uuid "634c2da5-8a73-4d6e-bc3a-15a03d1098da")
-		)
-		(pin "7"
-			(uuid "7ecbc668-02ca-4e27-814a-b5e956e80350")
-		)
-		(pin "1"
-			(uuid "5b525028-c9f8-463f-bd95-f0cbc4588207")
-		)
-		(pin "2"
-			(uuid "de384aca-c0f0-442c-adcc-490c862742c0")
-		)
-		(pin "11"
-			(uuid "26dd0553-c5ac-4e0b-8a85-3860ea07b3e8")
-		)
-		(pin "9"
-			(uuid "a1f8d083-5ad4-4264-8e9f-7b2b71f93a15")
-		)
-		(pin "16"
-			(uuid "24dc3d0a-69c8-45f4-9b43-63ae3615db9f")
-		)
-		(pin "3"
-			(uuid "b29868ce-d535-433d-9d54-5b3a4d271d84")
-		)
-		(pin "4"
-			(uuid "80d96a88-e684-43ec-a569-2838fd14bdd6")
-		)
-		(pin "8"
-			(uuid "27e43fef-2c3b-470c-9625-2e4f020ba65c")
-		)
-		(pin "14"
-			(uuid "2e1f7929-fc12-41d7-a2fd-6f9562b0beb2")
-		)
-		(pin "10"
-			(uuid "3b9d8fa6-8562-44c7-8da1-17e1652935f7")
-		)
-		(instances
-			(project "Audio_in_usd_sound_rp_pico"
-				(path "/4d45bd57-073c-4b61-a56d-da596d50cf10/7c7cf773-d00e-4ff4-9968-8b6516778136"
-					(reference "U10")
 					(unit 1)
 				)
 			)
